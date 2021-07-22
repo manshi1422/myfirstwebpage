@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>pinkvilla</title>
+        <link rel="stylesheet" href="pinkvilla.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="C:\Users\91926\Desktop\fashion\p2.jpg" width="90px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shopping</a></li>
+                    <li><a href="">Offers</a></li>
+                    <li><a href="">Cart</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="C:\Users\91926\Desktop\fashion\menuicon3.png" class="menuicon"
+            onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col2">
+                <h1>CROSS YOUR LIMITS,<br>BREAK THE RULES<br>STYLE AS YOU WANT!</h1>
+                <p>Style is a way to say who you are without having to speak</p>
+                <a href="" class="btn">Grab Now &#128409;</a>
+            </div>
+            <div class="col2">
+                <img src="C:\Users\91926\Desktop\fashion\p1.jpg">
+            </div>
+
+        </div>
+        </div>
+        </div>
+        <!-----featured categories------>
+        <div class="categories">
+            <h1 class="title">Featured Categories</h1>
+            <div class="smallcontainer">
+            <div class="row">
+                <div class="col3">
+                    <img src="C:\Users\91926\Desktop\fashion\j2.webp">
+                    <h2>JEANS</h2>
+                </div>
+                <div class="col3">
+                    <img src="C:\Users\91926\Desktop\fashion\d1.jpg">
+                    <h2>DRESSES</h2>
+                </div>
+                <div class="col3">
+                    <img src="C:\Users\91926\Desktop\fashion\t.jpg">
+                    <h2>TOPS AND TUNICS</h2>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="brands">
+            <div class="smallcontainer">
+                <h1 class="brandtitle">SHOP BY BRANDS</h1>
+                <div class="row">
+                    <div class="col4">
+                        <img src="C:\Users\91926\Desktop\fashion\logo1.png">
+                    </div>
+                    <div class="col4">
+                        <img src="C:\Users\91926\Desktop\fashion\logo2.png">
+                    </div>
+                    <div class="col4">
+                        <img src="C:\Users\91926\Desktop\fashion\logo3.png">
+                    </div>
+                    <div class="col4">
+                        <img src="C:\Users\91926\Desktop\fashion\logo5.png">
+                    </div>
+                    <div class="col4">
+                        <img src="C:\Users\91926\Desktop\fashion\logo7.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------footer-------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                <div class="footercol1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and ios mobile phone</p>
+                    <div class="applogo">
+                        <img src="C:\Users\91926\Desktop\fashion\playstore.png">
+                        <img src="C:\Users\91926\Desktop\fashion\appstore.png">
+                    </div>
+
+                </div>
+                <div class="footercol2">
+                    <img src="C:\Users\91926\Desktop\fashion\p2.jpg" width="20px">
+                    <p>Our Purpose is to make you feel special</p>
+                </div>
+                <div class="footercol3">
+                    <h3>useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footercol4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021 - pinkvilla</p>
+            </div>
+        </div>
+         <!-------js for toggle menu------->
+         <script>
+             var menuitems = document.getElementById("menuitems");
+
+             menuitems.style.maxHeight = "0px";
+
+             function menutoggle(){
+                 if (menuitems.style.maxHeight == "0px")
+                {
+                    menuitems.style.maxHeight = "200px";
+                }
+                 else
+                 {
+                    menuitems.style.maxHeight = "0px";
+                 }
+             }
+             </script>           
+    </body>
+</html>
